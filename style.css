@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #E5E5E5;
+    background: #efefef;
 }
 
 body::before {
@@ -38,7 +38,7 @@ header h1 {
     line-height: 42px;
     color:white;
 
-    margin-bottom: 24px;
+    margin-bottom: 18px;
     text-decoration: uppercase;
 }
 
@@ -187,4 +187,12 @@ input:invalid {
     margin: 0 auto 8px;
 
     border: 1px solid #E6E6F0;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+  
+input[type="time"]::-webkit-calendar-picker-indicator {
+    display: none;
 }
